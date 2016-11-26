@@ -4,4 +4,13 @@ use_frameworks!
 
 target 'Weather-Alarm-RxSwift' do
     pod 'Alamofire', '~> 4.0'
+    pod 'RxSwift',    '~> 3.0'
+    pod 'RxCocoa',    '~> 3.0'
+end
+
+abstract_target 'test' do
+    pod 'RxBlocking', '~> 3.0'
+    pod 'RxTest',     '~> 3.0'
+    target 'Weather-Alarm-RxSwiftTests'
+    target 'Weather-Alarm-RxSwiftUITests'
 end

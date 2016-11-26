@@ -1,0 +1,6 @@
+framework module Pods_test_Weather_Alarm_RxSwiftTests {
+  umbrella header "Pods-test-Weather-Alarm-RxSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
