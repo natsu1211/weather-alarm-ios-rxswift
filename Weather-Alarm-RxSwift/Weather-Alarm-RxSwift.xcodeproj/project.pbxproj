@@ -17,6 +17,8 @@
 		9E1407801D291FFC005274BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E14077E1D291FFC005274BD /* LaunchScreen.storyboard */; };
 		9E14078B1D291FFD005274BD /* Weather_Alarm_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E14078A1D291FFD005274BD /* Weather_Alarm_RxSwiftTests.swift */; };
 		9E1407961D291FFD005274BD /* Weather_Alarm_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1407951D291FFD005274BD /* Weather_Alarm_RxSwiftUITests.swift */; };
+		9E3C88721DEADA05001F3BBC /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C88711DEADA05001F3BBC /* AlarmModel.swift */; };
+		9E7D8DB41E17975700DC3F25 /* AlarmMainVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D8DB31E17975700DC3F25 /* AlarmMainVIewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		9E1407911D291FFD005274BD /* Weather-Alarm-RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather-Alarm-RxSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1407951D291FFD005274BD /* Weather_Alarm_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Alarm_RxSwiftUITests.swift; sourceTree = "<group>"; };
 		9E1407971D291FFD005274BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3C88711DEADA05001F3BBC /* AlarmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		9E7D8DB31E17975700DC3F25 /* AlarmMainVIewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmMainVIewModel.swift; sourceTree = "<group>"; };
 		AA12EDD17A8062C7E6F7D2E4 /* Pods-Weather-Alarm-RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-Alarm-RxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather-Alarm-RxSwift/Pods-Weather-Alarm-RxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		C8461E3503AB90354F042570 /* Pods-test-Weather-Alarm-RxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-Weather-Alarm-RxSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-Weather-Alarm-RxSwiftUITests/Pods-test-Weather-Alarm-RxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E8466EE43F7A3C75A8386476 /* Pods_test_Weather_Alarm_RxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Weather_Alarm_RxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +131,8 @@
 		9E1407741D291FFC005274BD /* Weather-Alarm-RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9E7D8DB21E17973200DC3F25 /* ViewModels */,
+				9E3C88701DEAD9A2001F3BBC /* Models */,
 				9E1407751D291FFC005274BD /* AppDelegate.swift */,
 				9E1407771D291FFC005274BD /* ViewController.swift */,
 				9E1407791D291FFC005274BD /* Main.storyboard */,
@@ -153,6 +159,22 @@
 				9E1407971D291FFD005274BD /* Info.plist */,
 			);
 			path = "Weather-Alarm-RxSwiftUITests";
+			sourceTree = "<group>";
+		};
+		9E3C88701DEAD9A2001F3BBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E3C88711DEADA05001F3BBC /* AlarmModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9E7D8DB21E17973200DC3F25 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9E7D8DB31E17975700DC3F25 /* AlarmMainVIewModel.swift */,
+			);
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 		ACB144FBB4C0A0C83B722B82 /* Frameworks */ = {
@@ -449,8 +471,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7D8DB41E17975700DC3F25 /* AlarmMainVIewModel.swift in Sources */,
 				9E1407781D291FFC005274BD /* ViewController.swift in Sources */,
 				9E1407761D291FFC005274BD /* AppDelegate.swift in Sources */,
+				9E3C88721DEADA05001F3BBC /* AlarmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
