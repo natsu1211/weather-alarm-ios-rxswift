@@ -10,6 +10,8 @@
 		3573E77B151F24A32CBDD19B /* Pods_Weather_Alarm_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B0BAB72F7A800718ACBAE9 /* Pods_Weather_Alarm_RxSwift.framework */; };
 		434F1B11390DE61E967104E1 /* Pods_test_Weather_Alarm_RxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8466EE43F7A3C75A8386476 /* Pods_test_Weather_Alarm_RxSwiftTests.framework */; };
 		872BF382BDEC7F015EBC2D09 /* Pods_test_Weather_Alarm_RxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173EF3DD887D381D422A8310 /* Pods_test_Weather_Alarm_RxSwiftUITests.framework */; };
+		9E108C551E190E1D0076E466 /* AlarmMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E108C541E190E1D0076E466 /* AlarmMainView.swift */; };
+		9E108C5B1E1A88400076E466 /* AlarmEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E108C5A1E1A88400076E466 /* AlarmEditViewModel.swift */; };
 		9E1407761D291FFC005274BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1407751D291FFC005274BD /* AppDelegate.swift */; };
 		9E1407781D291FFC005274BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1407771D291FFC005274BD /* ViewController.swift */; };
 		9E14077B1D291FFC005274BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1407791D291FFC005274BD /* Main.storyboard */; };
@@ -17,8 +19,9 @@
 		9E1407801D291FFC005274BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E14077E1D291FFC005274BD /* LaunchScreen.storyboard */; };
 		9E14078B1D291FFD005274BD /* Weather_Alarm_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E14078A1D291FFD005274BD /* Weather_Alarm_RxSwiftTests.swift */; };
 		9E1407961D291FFD005274BD /* Weather_Alarm_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1407951D291FFD005274BD /* Weather_Alarm_RxSwiftUITests.swift */; };
+		9E19F2051E1B88F70020AAAE /* AlarmMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19F2041E1B88F70020AAAE /* AlarmMainViewController.swift */; };
 		9E3C88721DEADA05001F3BBC /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C88711DEADA05001F3BBC /* AlarmModel.swift */; };
-		9E7D8DB41E17975700DC3F25 /* AlarmMainVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D8DB31E17975700DC3F25 /* AlarmMainVIewModel.swift */; };
+		9E7D8DB41E17975700DC3F25 /* AlarmMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D8DB31E17975700DC3F25 /* AlarmMainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		390326002DA8EE2350B3B5CC /* Pods-test-Weather-Alarm-RxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-Weather-Alarm-RxSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-Weather-Alarm-RxSwiftUITests/Pods-test-Weather-Alarm-RxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		54B0BAB72F7A800718ACBAE9 /* Pods_Weather_Alarm_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_Alarm_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA522347370960DDFB10759 /* Pods-Weather-Alarm-RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-Alarm-RxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather-Alarm-RxSwift/Pods-Weather-Alarm-RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		9E108C541E190E1D0076E466 /* AlarmMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmMainView.swift; sourceTree = "<group>"; };
+		9E108C5A1E1A88400076E466 /* AlarmEditViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmEditViewModel.swift; sourceTree = "<group>"; };
 		9E1407721D291FFC005274BD /* Weather-Alarm-RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather-Alarm-RxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1407751D291FFC005274BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E1407771D291FFC005274BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,8 +63,9 @@
 		9E1407911D291FFD005274BD /* Weather-Alarm-RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather-Alarm-RxSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1407951D291FFD005274BD /* Weather_Alarm_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Alarm_RxSwiftUITests.swift; sourceTree = "<group>"; };
 		9E1407971D291FFD005274BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E19F2041E1B88F70020AAAE /* AlarmMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmMainViewController.swift; sourceTree = "<group>"; };
 		9E3C88711DEADA05001F3BBC /* AlarmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
-		9E7D8DB31E17975700DC3F25 /* AlarmMainVIewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmMainVIewModel.swift; sourceTree = "<group>"; };
+		9E7D8DB31E17975700DC3F25 /* AlarmMainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmMainViewModel.swift; sourceTree = "<group>"; };
 		AA12EDD17A8062C7E6F7D2E4 /* Pods-Weather-Alarm-RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-Alarm-RxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather-Alarm-RxSwift/Pods-Weather-Alarm-RxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		C8461E3503AB90354F042570 /* Pods-test-Weather-Alarm-RxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-Weather-Alarm-RxSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-Weather-Alarm-RxSwiftUITests/Pods-test-Weather-Alarm-RxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E8466EE43F7A3C75A8386476 /* Pods_test_Weather_Alarm_RxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Weather_Alarm_RxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +112,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9E108C531E190ACE0076E466 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E108C541E190E1D0076E466 /* AlarmMainView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		9E1407691D291FFC005274BD = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +145,7 @@
 		9E1407741D291FFC005274BD /* Weather-Alarm-RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9E108C531E190ACE0076E466 /* Views */,
 				9E7D8DB21E17973200DC3F25 /* ViewModels */,
 				9E3C88701DEAD9A2001F3BBC /* Models */,
 				9E1407751D291FFC005274BD /* AppDelegate.swift */,
@@ -172,7 +187,9 @@
 		9E7D8DB21E17973200DC3F25 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				9E7D8DB31E17975700DC3F25 /* AlarmMainVIewModel.swift */,
+				9E7D8DB31E17975700DC3F25 /* AlarmMainViewModel.swift */,
+				9E108C5A1E1A88400076E466 /* AlarmEditViewModel.swift */,
+				9E19F2041E1B88F70020AAAE /* AlarmMainViewController.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -471,9 +488,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E7D8DB41E17975700DC3F25 /* AlarmMainVIewModel.swift in Sources */,
+				9E7D8DB41E17975700DC3F25 /* AlarmMainViewModel.swift in Sources */,
 				9E1407781D291FFC005274BD /* ViewController.swift in Sources */,
 				9E1407761D291FFC005274BD /* AppDelegate.swift in Sources */,
+				9E108C551E190E1D0076E466 /* AlarmMainView.swift in Sources */,
+				9E19F2051E1B88F70020AAAE /* AlarmMainViewController.swift in Sources */,
+				9E108C5B1E1A88400076E466 /* AlarmEditViewModel.swift in Sources */,
 				9E3C88721DEADA05001F3BBC /* AlarmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

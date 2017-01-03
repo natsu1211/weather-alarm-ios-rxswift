@@ -9,6 +9,7 @@
 import Foundation
 
 struct Alarm{
-    var date : Date
+    var time : Date
+    var repeatWeekdays : [Int]
     let id : String = UUID().uuidString
 }
